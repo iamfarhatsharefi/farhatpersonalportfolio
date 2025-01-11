@@ -4,12 +4,10 @@ import {
   FaCss3Alt,
   FaJs,
   FaReact,
-  FaGithub,
   FaGitAlt,
 } from 'react-icons/fa';
 import {
   SiNextdotjs,
-  SiExpress,
   SiMongodb,
   SiNetlify,
   SiVercel,

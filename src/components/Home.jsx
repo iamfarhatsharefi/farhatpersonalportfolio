@@ -1,6 +1,5 @@
 // In ./components/Home.jsx
 import React, { useEffect } from 'react';
-import { AiOutlineDownload } from 'react-icons/ai';
 
 function Home() {
   useEffect(() => {
@@ -33,6 +32,7 @@ function Home() {
         </h1>
         <p className="text-lg md:text-xl">
           Junior Web Developer & Graphic Design Student at Kabul University
+
           With a heart full of creativity and a passion for coding, I turn challenges into beautiful solutions.
         </p>
 
