@@ -48,12 +48,6 @@ const skills = [
     description: 'React framework for production',
   },
   {
-    name: 'Express.js',
-    icon: <SiExpress />,
-    bg: 'bg-gray-700',
-    description: 'Web framework for Node.js',
-  },
-  {
     name: 'MongoDB',
     icon: <SiMongodb />,
     bg: 'bg-green-600',
