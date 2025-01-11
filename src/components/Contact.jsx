@@ -43,7 +43,7 @@ function Contact() {
         {/* Image Section */}
         <div className="md:w-1/2 mb-8 md:mb-0 animate__animated animate__fadeIn animate__delay-1s">
           <img
-            src="/images/contact.png"
+            src="/images/undraw_devices_re_dxae 2.png"
             alt="Contact"
             className="rounded-lg shadow-lg transform hover:scale-105 transition duration-500 ease-in-out"
           />
