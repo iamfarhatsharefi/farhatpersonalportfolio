@@ -40,7 +40,7 @@ To run this project locally, follow the steps below:
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/yourusername/my_portfolio.git
+   git clone git@github.com:iamfarhatsharefi/farhatpersonalportfolio.git
 
 
 2.Install Dependencies:
@@ -51,8 +51,12 @@ npm install
 
 npm start
 
-🚀 Demo
-Check out the live demo of the project here:
+## Demo 📸
+![Demo](./public/images/portfolioimage.PNG)
+
+
+ [Live-link]( https://heroic-mochi-049531.netlify.app/)
+
 
 
 ## Author 👩‍💻
