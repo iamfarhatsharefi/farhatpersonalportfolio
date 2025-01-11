@@ -45,7 +45,7 @@ function Home() {
             >
               <img
                 id="social-icon1"
-                src="/images/linkedin-icon.png"
+                src="/images/LinkedIn Circled.png"
                 alt="LinkedIn"
                 className="hover:scale-110 transition-all duration-300 transform"
               />
@@ -59,7 +59,7 @@ function Home() {
             >
               <img
                 id="social-icon2"
-                src="/images/github-icon.png"
+                src="/images/GitHub.png"
                 alt="GitHub"
                 className="hover:scale-110 transition-all duration-300 transform"
               />
@@ -73,7 +73,7 @@ function Home() {
             >
               <img
                 id="social-icon3"
-                src="/images/facebook-icon.png"
+                src="/images/fb.png"
                 alt="Facebook"
                 className="hover:scale-110 transition-all duration-300 transform"
               />
