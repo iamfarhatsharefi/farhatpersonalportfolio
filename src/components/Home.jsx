@@ -1,3 +1,4 @@
+// In ./components/Home.jsx
 import React, { useEffect } from 'react';
 import { AiOutlineDownload } from 'react-icons/ai';
 
@@ -31,10 +32,8 @@ function Home() {
           I am Farhat Sharefi
         </h1>
         <p className="text-lg md:text-xl">
-        Junior Web Developer & Graphic Design Student at Kabul University
-With a heart full of creativity and a passion for coding, I turn challenges into beautiful solutions. Combining my love for design and web development, I’m driven to craft seamless, innovative experiences that inspire.
-
-
+          Junior Web Developer & Graphic Design Student at Kabul University
+          With a heart full of creativity and a passion for coding, I turn challenges into beautiful solutions.
         </p>
 
         {/* Social Media Icons */}
@@ -49,7 +48,7 @@ With a heart full of creativity and a passion for coding, I turn challenges into
                 id="social-icon1"
                 src="/images/LinkedIn Circled.png"
                 alt="LinkedIn"
-                className="hover:scale-110 transition-all duration-300 transform"
+                className="w-10 h-10 hover:scale-110 transition-all duration-300 transform"
               />
             </a>
           </li>
@@ -63,7 +62,7 @@ With a heart full of creativity and a passion for coding, I turn challenges into
                 id="social-icon2"
                 src="/images/GitHub.png"
                 alt="GitHub"
-                className="hover:scale-110 transition-all duration-300 transform"
+                className="w-10 h-10 hover:scale-110 transition-all duration-300 transform"
               />
             </a>
           </li>
@@ -77,7 +76,7 @@ With a heart full of creativity and a passion for coding, I turn challenges into
                 id="social-icon3"
                 src="/images/fb.png"
                 alt="Facebook"
-                className="hover:scale-110 transition-all duration-300 transform"
+                className="w-10 h-10 hover:scale-110 transition-all duration-300 transform"
               />
             </a>
           </li>
