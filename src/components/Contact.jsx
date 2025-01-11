@@ -67,7 +67,7 @@ function Contact() {
             <div className="shine-effect">
               <input
                 type="text"
-                placeholder="Name"
+                placeholder="Your Identity"
                 value={name}
                 onChange={(e) => setName(e.target.value)}
                 className="w-full p-4 border rounded bg-gray-700 text-white focus:outline-none focus:ring-2 focus:ring-blue-500"
@@ -77,7 +77,7 @@ function Contact() {
             <div className="shine-effect">
               <input
                 type="email"
-                placeholder="Email"
+                placeholder="How to reach you"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
                 className="w-full p-4 border rounded bg-gray-700 text-white focus:outline-none focus:ring-2 focus:ring-blue-500"
@@ -87,7 +87,7 @@ function Contact() {
             <div className="shine-effect">
               <input
                 type="text"
-                placeholder="Phone"
+                placeholder="Digits, please"
                 value={phone}
                 onChange={(e) => setPhone(e.target.value)}
                 className="w-full p-4 border rounded bg-gray-700 text-white focus:outline-none focus:ring-2 focus:ring-blue-500"
@@ -95,7 +95,7 @@ function Contact() {
             </div>
             <div className="shine-effect">
               <textarea
-                placeholder="Message"
+                placeholder="Share your thoughts"
                 value={message}
                 onChange={(e) => setMessage(e.target.value)}
                 className="w-full p-4 border rounded bg-gray-700 text-white focus:outline-none focus:ring-2 focus:ring-blue-500"
