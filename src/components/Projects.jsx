@@ -103,10 +103,10 @@ const projects = [
     liveLink: 'https://dev--earnest-wisp-77ac4d.netlify.app/',
     sourceLink: 'https://github.com/Saqibi4213/space-travelers/pulls',
   },
-   {
+  {
     title: '11 🎬✨Movie App',
     description: 'The ultimate gateway to explore and discover the world of cinema! Whether you’re a casual moviegoer or a passionate film aficionado, this app offers a seamless and engaging experience.',
-    images: ['images/movie app.PNG'], 
+    images: ['images/movie app.PNG'],
     longDescription: 'Immerse yourself in the magic of storytelling by browsing through popular films, viewing detailed information, and enjoying a unique cinematic experience.',
     technologies: ['Next.js'],
     liveLink: 'https://clock-lqoqqw853-farhat-sharefis-projects.vercel.app/',

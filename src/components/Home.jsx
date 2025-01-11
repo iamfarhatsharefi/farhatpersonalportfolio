@@ -33,7 +33,8 @@ function Home() {
         <p className="text-lg md:text-xl">
           Junior Web Developer & Graphic Design Student at Kabul University
 
-          With a heart full of creativity and a passion for coding, I turn challenges into beautiful solutions.
+          With a heart full of creativity and a passion for coding,
+          I turn challenges into beautiful solutions.
         </p>
 
         {/* Social Media Icons */}
