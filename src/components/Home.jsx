@@ -31,8 +31,10 @@ function Home() {
           I am Farhat Sharefi
         </h1>
         <p className="text-lg md:text-xl">
-          A passionate junior web developer with a strong JavaScript foundation.
-          I excel at turning challenges into elegant web solutions.
+        Junior Web Developer & Graphic Design Student at Kabul University
+With a heart full of creativity and a passion for coding, I turn challenges into beautiful solutions. Combining my love for design and web development, I’m driven to craft seamless, innovative experiences that inspire.
+
+
         </p>
 
         {/* Social Media Icons */}
