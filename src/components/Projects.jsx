@@ -12,8 +12,6 @@ const projects = [
     title: '1: Personal Portfolio Webpage',
     description: 'My Personal Portfolio Webpage showcases my skills and projects in web development. Built with HTML and CSS.',
     images: ['images/portfolio.png'],
-    longDescription: 'The Personal Portfolio Webpage represents a culmination of my journey and achievements in web development. Developed using HTML, CSS, and JavaScript, this interactive webpage serves as a comprehensive hub where potential employers, clients, or collaborators can explore my skills, projects, and professional profile.',
-    technologies: ['HTML', 'CSS'],
     liveLink: 'https://iamfarhatsharefi.github.io/personal-portfolio/',
     sourceLink: 'https://github.com/iamfarhatsharefi/personal-portfolio',
   },
@@ -21,8 +19,6 @@ const projects = [
     title: '2: Roman Numeral Converter',
     description: 'Roman Numeral Converter is a web application designed to convert numbers between Roman numerals and Arabic numerals.',
     images: ['images/roman.png'],
-    longDescription: 'Roman Numeral Converter is a versatile web application designed to convert numbers between Roman numerals and Arabic numerals with ease. Developed using HTML, CSS, and JavaScript, this project showcases my ability to create practical, interactive web tools that offer a seamless user experience.',
-    technologies: ['HTML', 'CSS', 'JS'],
     liveLink: 'https://iamfarhatsharefi.github.io/Roman-Numeral-Converter/',
     sourceLink: 'https://github.com/iamfarhatsharefi/Roman-Numeral-Converter',
   },
@@ -100,6 +96,15 @@ const projects = [
     sourceLink: 'https://github.com/iamfarhatsharefi/clock',
   },
   {
+    title: '11✨ Space Travelers Hub',
+    description: 'Space Travelers Hub is an exciting, interactive web application that allows users to explore space missions, learn about spacecraft, and track astronauts\' journeys.',
+    images: ['images/reactspace.PNG'],
+    longDescription: 'Space Travelers Hub is a dynamic web application designed to bring space exploration to life. This platform offers an interactive experience where users can discover real-time space missions, learn about various spacecraft, and track the journeys of astronauts. With a user-friendly interface and rich data on space agencies and missions, the app provides educational content alongside engaging visuals.',
+    technologies: ['React.js'],
+    liveLink: 'https://dev--earnest-wisp-77ac4d.netlify.app/',
+    sourceLink: 'https://github.com/Saqibi4213/space-travelers/pulls',
+  },
+   {
     title: '11 🎬✨Movie App',
     description: 'The ultimate gateway to explore and discover the world of cinema! Whether you’re a casual moviegoer or a passionate film aficionado, this app offers a seamless and engaging experience.',
     images: ['images/movie app.PNG'], 
@@ -110,16 +115,13 @@ const projects = [
   },
 ];
 
-// Define technology icons based on tech stack
 const technologyIcons = {
   HTML: <FaHtml5 />,
   CSS: <FaCss3Alt />,
   JS: <FaJs />,
   REACT: <FaReact />,
-  'Next.js': <FaReact />,
 };
 
-// Use a function declaration for the component
 function Projects() {
   return (
     <section id="projects" className="py-20 bg-gray-900 text-white">
@@ -139,17 +141,30 @@ function Projects() {
               <div className="p-4">
                 <h3 className="text-xl font-semibold mb-2">{project.title}</h3>
                 <p className="text-sm mb-4">{project.description}</p>
-                <div className="flex space-x-2">
-                  {/* Using technology icons */}
-                  {project.technologies.map((tech) => (
-                    <span
-                      key={tech}
-                      className="text-lg text-yellow-500"
-                      title="Technology used"
-                    >
-                      {technologyIcons[tech.toUpperCase()]}
+                <div className="flex space-x-2 mb-4">
+                  {Object.keys(technologyIcons).map((tech) => (
+                    <span key={tech} className="text-lg text-yellow-500">
+                      {technologyIcons[tech]}
                     </span>
                   ))}
+                </div>
+                <div className="flex space-x-4">
+                  <a
+                    href={project.liveLink}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="py-2 px-4 bg-blue-500 text-white rounded-md hover:bg-blue-600"
+                  >
+                    Live Demo
+                  </a>
+                  <a
+                    href={project.sourceLink}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="py-2 px-4 bg-green-500 text-white rounded-md hover:bg-green-600"
+                  >
+                    Source Code
+                  </a>
                 </div>
               </div>
             </div>
