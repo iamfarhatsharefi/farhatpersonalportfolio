@@ -1,0 +1,93 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.pointer-circle {
+  position: fixed;
+  width: 25px; /* Slightly larger for better visibility */
+  height: 25px;
+  border-radius: 50%;
+  background-color: rgb(255, 105, 180); /* Soft pink */
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+  transition: width 0.2s ease, height 0.2s ease, background-color 0.2s ease;
+}
+
+.pointer-circle:hover {
+  width: 35px; /* Enlarges on hover */
+  height: 35px;
+  background-color: rgb(255, 20, 147); /* Deep pink on hover */
+}
+
+@media (max-width: 768px) {
+  .pointer-circle {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+body {
+  background-color: rgb(26, 22, 45); /* Darker background for better contrast */
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  font-family: 'Poppins', sans-serif; /* Lighter and modern font */
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@keyframes scaleUp {
+  0% {
+    transform: scale(1);
+  }
+
+  100% {
+    transform: scale(1.1); /* Slightly larger for added emphasis */
+  }
+}
+
+@keyframes spin-slow {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-spin-slow {
+  animation: spin-slow 10s linear infinite;
+}
+
+.swiper-container {
+  overflow: hidden;
+  border-radius: 15px; /* Rounded corners for a smoother look */
+}
+
+.mySwiper {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 20px; /* Added gap for spacing between elements */
+}
+
+@keyframes shine {
+  0% {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #ff1493, 0 0 20px #ff1493; /* Strong pink glow */
+  }
+
+  100% {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #ff6347, 0 0 20px #ff6347; /* Gradual color change for shine effect */
+  }
+}
+
+.logo-shine {
+  animation: shine 1.5s infinite alternate;
+  font-size: 2rem; /* Larger size for emphasis */
+  color: #fff; /* Ensuring text shines more vibrantly */
+  font-weight: bold;
+}
