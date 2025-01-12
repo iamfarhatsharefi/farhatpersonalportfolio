@@ -109,7 +109,7 @@ const projects = [
     images: ['images/movie app.PNG'],
     longDescription: 'Immerse yourself in the magic of storytelling by browsing through popular films, viewing detailed information, and enjoying a unique cinematic experience.',
     technologies: ['Next.js'],
-    liveLink: 'https://clock-lqoqqw853-farhat-sharefis-projects.vercel.app/',
+    liveLink: 'https://deluxe-otter-a5f9ce.netlify.app/',
     sourceLink: 'https://github.com/iamfarhatsharefi/movie-app',
   },
 ];
